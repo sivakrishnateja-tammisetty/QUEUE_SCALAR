@@ -3,9 +3,9 @@ QUEUE:
   2.It follows (FIFO).
   3.Once a new element is inserted into queue,all the elements need to remove before insertded elements to remove new element.
 OPERATIONS IN QUEUE:
-  PUSH:
-  POP:
-  FRONT:
-  BACK:
-  SIZE:
-  EMPTY:
+  PUSH:inserts new element at the end of queue.
+  POP:Deletes first element of queue.
+  FRONT:it returns first element
+  BACK:it returns the last element
+  SIZE:it returns number of elements in queue
+  EMPTY:returns true if queue is empty
