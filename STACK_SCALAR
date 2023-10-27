@@ -9,3 +9,5 @@ OPERATIONS IN QUEUE:
   BACK:it returns the last element
   SIZE:it returns number of elements in queue
   EMPTY:returns true if queue is empty
+
+TIME COMPLEXITY: for all operations is O(1).
