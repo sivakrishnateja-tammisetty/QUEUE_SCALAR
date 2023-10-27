@@ -11,3 +11,27 @@ OPERATIONS IN QUEUE:
   EMPTY:returns true if queue is empty
 
 TIME COMPLEXITY: for all operations is O(1).
+
+
+
+
+
+//GIVEN AN ARRAY OF INTGERS<YOU NEED TO PUSH ALL ELEMENTS OF AN ARRAY INTO QUEUE AND PRINT QUEUE
+#include <bits/stdc++.h>
+using namespace std;
+int main() {
+    int a[]={11,12,13,14,15};
+    queue<int>q;
+    for(int i=0;i<5;i++)
+    {
+        q.push(a[i]);
+
+    }
+    cout<<"Queue elements are:";
+    while(!q.empty())
+    {
+        cout<<q.front()<<" ";
+        q.pop();
+    }
+    return 0;
+}
