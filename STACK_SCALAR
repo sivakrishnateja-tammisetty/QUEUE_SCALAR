@@ -1,1 +1,4 @@
-Q
+QUEUE:
+  1.It also ordered list of similar datatypes.
+  2.It follows (FIFO).
+  3.Once a new element is inserted into queue,all the elements need to remove before insertded elements to remove new element.
